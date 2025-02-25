@@ -15,7 +15,7 @@ If you find this work useful, please cite our paper and give us a shining star ð
 ``` -->
 
 ## Overview
-![alt text](image.png)
+![](figs/RankCoT.png)
 RankCoT is a knowledge refinement method that incorporates reranking signals in generating CoT-based summarization for knowledge refinement based on given query and all retrieval documents. During training, RankCoT prompts the LLM to generate Chain-of-Thought (CoT) candidates based on the query and individual documents. It then fine-tunes the LLM to directly reproduce the best CoT from these candidate outputs based on all retrieved documents, which requires LLM to filter out irrelevant documents during generating CoT-style summarization. Additionally, RankCoT incorporates a self-reflection mechanism that further refines the CoT outputs, resulting in higher-quality training data.
 
 ## Set Up
