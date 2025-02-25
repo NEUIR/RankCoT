@@ -122,7 +122,6 @@ python src/modelft/dataset_partitioning_dataprocess.py
 (2) Second step: use lora to train the model
 ```
 conda activate llama3_ft
-cd scripts
 bash scripts/lora_dpo_llama.sh
 ```
 
