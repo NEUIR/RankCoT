@@ -32,7 +32,6 @@ conda env create -n llama3_inf -f inference_environment.yml
 
 for model training, please:
 conda env create -n llama3_ft -f training_environment.yml
-conda activate llama3_ft
 ```
 
 ## Using RankCoT model
