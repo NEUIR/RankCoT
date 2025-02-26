@@ -1,0 +1,22 @@
+nohup deepspeed  --include localhost:4,5,6,7 --master_port 2347 src/modelft/train_my.py \
+    --model_name_or_path # e.g. Meta-Llama-3-8B-Instruct \
+    --train_data_path #e.g. llama3ft_dpodata_train.jsonl \
+    --eval_data_path #e.g. llama3ft_dpodata_validation.jsonl \
+    --max_length 1628 \
+    --max_prompt_length 1500 \
+    --output_dir #e.g. trained_model_output_dir/checkpoint \
+    --save_steps 600 \
+    --eval_steps 600 \
+    --per_device_train_batch_size 1 \
+    --per_device_eval_batch_size 1 \
+    --learning_rate 2e-5 \
+    --evaluation_strategy steps \
+    --logging_strategy steps \
+    --logging_steps 3 \
+    --logging_dir #e.g. trained_model_output_dir/log \
+    --bf16 True \
+    --use_lora True \
+    --num_train_epochs 2 \
+    --top_n 5 \
+    --llama_style True \
+    --deepspeed scripts/config/ds_config_zero2.json > #e.g. trained_model_output_dir/run.log 2>&1 &
