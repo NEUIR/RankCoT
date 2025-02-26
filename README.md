@@ -1,18 +1,24 @@
 # RankCoT: Refining Knowledge for Retrieval-Augmented Generation through Ranking Chain-of-Thoughts
 
-<!-- Source code for our paper :  
-[RankCoT: Refining Knowledge for Retrieval-Augmented Generation through Ranking Chain-of-Thoughts](https://arxiv.org/ -->
+Source code for our paper :  
+[RankCoT: Refining Knowledge for Retrieval-Augmented Generation through Ranking Chain-of-Thoughts](https://arxiv.org/abs/2502.17888)
 
 Click the links below to view our papers, checkpoints:
 
-<!-- <a href='https://arxiv.org'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> -->
-<a href='https://huggingface.co/MignonMiyoung/RankCoT'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Checkpoint-blue'></a>
+<a href='https://arxiv.org/abs/2502.17888'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a><a href='https://huggingface.co/MignonMiyoung/RankCoT'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Checkpoint-blue'></a>
 
 If you find this work useful, please cite our paper and give us a shining star 🌟
-<!-- ```
-@article{
+```
+@article{wu2025rankcotrefiningknowledgeretrievalaugmented,
+      title={RankCoT: Refining Knowledge for Retrieval-Augmented Generation through Ranking Chain-of-Thoughts}, 
+      author={Mingyan Wu and Zhenghao Liu and Yukun Yan and Xinze Li and Shi Yu and Zheni Zeng and Yu Gu and Ge Yu},
+      year={2025},
+      eprint={2502.17888},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.17888}, 
 }
-``` -->
+```
 
 ## Overview
 ![](figs/RankCoT.png)
