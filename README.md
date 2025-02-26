@@ -122,7 +122,7 @@ python src/modelft/select_notnone_data.py
 python src/modelft/dataset_partitioning_dataprocess.py
 ```
 
-### Training the Model
+### Training the model
 **After constructing the training data, you can start training the RankCoT model.**
 
 (1) First step: You need to download [Llama3-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) model as  Knowledge Refinement Model.
