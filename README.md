@@ -34,6 +34,14 @@ for model training, please:
 conda env create -n llama3_ft -f training_environment.yml
 ```
 
+## Data
+Download the files from [here](https://drive.google.com/drive/folders/1QJ63-90RIdjyKwAdCMZKLz5KiFfxEkoq?usp=sharing) and place them in the `data/` directory.
+```
+data/
+- retriever_train_4000_noread_psg_modify10passage.jsonl/ # ❗️Note: We modified the data format so that one question corresponds to ten lines of data, and these ten lines of data correspond to different related documents.
+- test_data/ # test data in our experiments
+```
+
 ## Using RankCoT model
 **(1) Use `git clone` to download the model:**
 ❗️Note: This is a lora checkpoint of RankCoT, please merge it before use.
