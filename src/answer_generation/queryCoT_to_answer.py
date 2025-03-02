@@ -24,7 +24,7 @@ class llmDataset(Dataset):
         passages = item['passages']
         ground_truth = item['ground_truth']
         cot = item['model_output']
-        template = PROMPT_DICT['QA_queryCOT_to_answer']
+        template = PROMPT_DICT['QA_queryCoT_to_answer']
         template = template.format(question=query, COT=cot)
         messages = [
             {"role": "user", "content": template},
