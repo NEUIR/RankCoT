@@ -103,7 +103,6 @@ python src/CoTdata_generation/querypassage_to_CoT.py \
 --model_path  # e.g. Meta-Llama-3-8B-Instruct \
 --data_path # e.g.  data/retriever_train_4000_noread_psg_modify10passage.jsonl \
 --output_name # e.g. querypassage_to_CoT.jsonl
---max_psg_length 1500
 ```
 
 **(2) CoT refinement through self-reflection**
