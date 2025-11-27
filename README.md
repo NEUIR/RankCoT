@@ -107,7 +107,7 @@ python src/CoTdata_generation/querypassage_to_CoT.py \
 
 **(2) CoT refinement through self-reflection**
 ```
-python src/answer_generation/queryCoT_to_answer.py \
+python src/CoTdata_generation/queryCoT_to_answer.py \
 --model_path  # e.g. Meta-Llama-3-8B-Instruct \
 --data_path # e.g. querypassage_to_CoT.jsonl \
 --output_name # e.g. queryCoT_to_answer.jsonl
